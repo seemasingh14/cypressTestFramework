@@ -1,6 +1,6 @@
-describe('My First Test Suite', () => {
+describe('My second test suite', () => {
 
-    it('My first test !', () => {
+    it('demo test using fixtures', () => {
 
       cy.visit('https://example.cypress.io')
       cy.contains('Commands')
